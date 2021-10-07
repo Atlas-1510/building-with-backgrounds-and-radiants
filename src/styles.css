@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .bg-hero {
+    background-image: url("../src/hero-image.jpeg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-1 {
+    background-image: url("../src/image-1.jpeg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+
+  .bg-2 {
+    background-image: url("../src/image-2.jpeg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+
+  .bg-3 {
+    background-image: url("../src/image-3.jpeg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+
+  .bg-4 {
+    background-image: url("../src/image-4.jpeg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+}
