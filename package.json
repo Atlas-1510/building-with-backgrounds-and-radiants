@@ -1,0 +1,25 @@
+{
+  "name": "building-with-backgrounds-and-radiants",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atlas-1510/building-with-backgrounds-and-radiants.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atlas-1510/building-with-backgrounds-and-radiants/issues"
+  },
+  "homepage": "https://github.com/Atlas-1510/building-with-backgrounds-and-radiants#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16"
+  }
+}
