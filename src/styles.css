@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -36,5 +38,22 @@
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: auto 100%;
+  }
+
+  .nav-grid {
+    display: grid;
+    /* border: 10px solid yellow !important; */
+    width: 70vw;
+    height: 40px;
+    grid-template-columns: auto repeat(7, 1fr) auto;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@layer components {
+  .nav-item {
+    @apply border-l border-black w-full h-full grid place-items-center cursor-pointer;
   }
 }
