@@ -2,7 +2,7 @@
 
 From The Odin Project's [curriculum](https://www.theodinproject.com/paths/full-stack-javascript/courses/html-and-css/lessons/backgrounds-and-gradients)
 
-[Live Demo]()
+[Live Demo](https://atlas-1510.github.io/building-with-backgrounds-and-radiants/)
 
 ## Assignment
 
