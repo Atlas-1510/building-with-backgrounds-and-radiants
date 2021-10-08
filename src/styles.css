@@ -61,4 +61,8 @@
   .nav-item {
     @apply border-l border-gray-600 w-full h-full grid place-items-center cursor-pointer;
   }
+
+  .text-link {
+    @apply text-blue-500 cursor-pointer;
+  }
 }
